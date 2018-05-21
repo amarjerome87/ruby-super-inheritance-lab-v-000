@@ -8,11 +8,10 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super
     x = 10.times do
+      super
       puts "Pick me!"
     end
-    binding.pry
   end
 
 end
